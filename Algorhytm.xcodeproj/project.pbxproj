@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A33173951C0CDC9700664561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173941C0CDC9700664561 /* AppDelegate.swift */; };
-		A33173971C0CDC9700664561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173961C0CDC9700664561 /* ViewController.swift */; };
+		A33173971C0CDC9700664561 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173961C0CDC9700664561 /* PlaylistMasterViewController.swift */; };
 		A331739A1C0CDC9700664561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33173981C0CDC9700664561 /* Main.storyboard */; };
 		A331739C1C0CDC9700664561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A331739B1C0CDC9700664561 /* Assets.xcassets */; };
 		A331739F1C0CDC9700664561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A331739D1C0CDC9700664561 /* LaunchScreen.storyboard */; };
 		A33173AA1C0CDC9700664561 /* AlgorhytmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173A91C0CDC9700664561 /* AlgorhytmTests.swift */; };
 		A33173B51C0CDC9800664561 /* AlgorhytmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173B41C0CDC9800664561 /* AlgorhytmUITests.swift */; };
+		A33173C31C0CE05300664561 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33173C21C0CE05300664561 /* PlaylistDetailViewController.swift */; };
+		A3F2AE931C106578007C61AB /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2AE921C106578007C61AB /* MusicLibrary.swift */; };
+		A3F2AE951C1066AA007C61AB /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F2AE941C1066AA007C61AB /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		A33173911C0CDC9700664561 /* Algorhytm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhytm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33173941C0CDC9700664561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A33173961C0CDC9700664561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A33173961C0CDC9700664561 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		A33173991C0CDC9700664561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A331739B1C0CDC9700664561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A331739E1C0CDC9700664561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		A33173B01C0CDC9800664561 /* AlgorhytmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhytmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33173B41C0CDC9800664561 /* AlgorhytmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorhytmUITests.swift; sourceTree = "<group>"; };
 		A33173B61C0CDC9800664561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33173C21C0CE05300664561 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		A3F2AE921C106578007C61AB /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		A3F2AE941C1066AA007C61AB /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				A33173941C0CDC9700664561 /* AppDelegate.swift */,
-				A33173961C0CDC9700664561 /* ViewController.swift */,
+				A33173961C0CDC9700664561 /* PlaylistMasterViewController.swift */,
+				A33173C21C0CE05300664561 /* PlaylistDetailViewController.swift */,
 				A33173981C0CDC9700664561 /* Main.storyboard */,
+				A3F2AE921C106578007C61AB /* MusicLibrary.swift */,
+				A3F2AE941C1066AA007C61AB /* Playlist.swift */,
 				A331739B1C0CDC9700664561 /* Assets.xcassets */,
 				A331739D1C0CDC9700664561 /* LaunchScreen.storyboard */,
 				A33173A01C0CDC9700664561 /* Info.plist */,
@@ -192,7 +201,7 @@
 				TargetAttributes = {
 					A33173901C0CDC9700664561 = {
 						CreatedOnToolsVersion = 7.0.1;
-						DevelopmentTeam = 9X6CDG4CY4;
+						DevelopmentTeam = 33KDFRWXP7;
 					};
 					A33173A41C0CDC9700664561 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A33173971C0CDC9700664561 /* ViewController.swift in Sources */,
+				A33173C31C0CE05300664561 /* PlaylistDetailViewController.swift in Sources */,
+				A33173971C0CDC9700664561 /* PlaylistMasterViewController.swift in Sources */,
 				A33173951C0CDC9700664561 /* AppDelegate.swift in Sources */,
+				A3F2AE931C106578007C61AB /* MusicLibrary.swift in Sources */,
+				A3F2AE951C1066AA007C61AB /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhytm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dumitruglavan.Algorhytm;
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Algorhytm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dumitruglavan.Algorhytm;
@@ -484,6 +498,7 @@
 				A33173BB1C0CDC9800664561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33173BC1C0CDC9800664561 /* Build configuration list for PBXNativeTarget "AlgorhytmTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				A33173BE1C0CDC9800664561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A33173BF1C0CDC9800664561 /* Build configuration list for PBXNativeTarget "AlgorhytmUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +516,7 @@
 				A33173C11C0CDC9800664561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
